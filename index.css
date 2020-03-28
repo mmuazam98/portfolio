@@ -1,8 +1,6 @@
 body{
            font-family: "Oxanium";
            background-color: rgba(206, 37, 77, 0.6);
-           background: -moz-linear-gradient(left, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
-           background: -webkit-linear-gradient(left, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
            background: linear-gradient( left, rgba(212, 0, 50, 0.6), rgba(8, 11, 196, 0.69) 100%);
             
 }
