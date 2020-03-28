@@ -2,7 +2,7 @@ body{
            font-family: "Oxanium";
            background-color: rgba(212, 0, 50, 0.6);
            background: linear-gradient( left, rgba(212, 0, 50, 0.6), rgba(8, 11, 196, 0.69) 100%);
-            
+           overflow-x:hidden;
 }
 html{
   scroll-behavior: smooth;
