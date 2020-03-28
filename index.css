@@ -3,8 +3,8 @@ body{
            background: -moz-linear-gradient(left, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
            background: -webkit-linear-gradient(left, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
 
-  background-color: rgba(206, 37, 77, 0.6);
-  background: linear-gradient( left, rgba(212, 0, 50, 0.6), rgba(8, 11, 196, 0.69) 100%);
+           background-color: rgba(206, 37, 77, 0.6);
+           background: linear-gradient( left, rgba(212, 0, 50, 0.6), rgba(8, 11, 196, 0.69) 100%);
             
 }
 html{
@@ -80,7 +80,7 @@ a{
      display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 55%;
+    width: 36%;
     transition: all .8s ease-in-out;
   }
 
