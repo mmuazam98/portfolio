@@ -149,7 +149,7 @@ a{
 
   
   /*Skills*/
-    #Skills h1{
+    #Skills,#Projects h1{
       text-decoration: underline;
       font-weight: bolder;
       color: black;
