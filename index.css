@@ -153,6 +153,7 @@ a{
     .skills {
       animation: animate3 6s forwards ease-in-out;
       height: 15px;
+      animation-delay: 3.5s;         
       border-radius: 5px;
     }
     @keyframes animate3 {
