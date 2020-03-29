@@ -2,9 +2,10 @@ body{
            font-family: "Oxanium";
            background: -moz-linear-gradient( left, rgba(212, 0, 50, 0.6), rgba(8, 11, 196, 0.69) 100%);
            background: -webkit-linear-gradient( left, rgba(212, 0, 50, 0.6), rgba(8, 11, 196, 0.69) 100%);
-           overflow-x: hidden;
+           
            background-color: rgba(206, 37, 77, 0.6);
-           background: linear-gradient( left, rgba(212, 0, 50, 0.6), rgba(8, 11, 196, 0.69) 100%);   
+           background: linear-gradient( left, rgba(212, 0, 50, 0.6), rgba(8, 11, 196, 0.69) 100%);  
+           overflow-x: hidden;
 }
 html{
   scroll-behavior: smooth;
@@ -249,8 +250,7 @@ a{
     color: black;
   }
   .row {
-    display: block;
-    padding: 15px;
+     padding: 15px;
   }
 footer{
   padding: 2.5vh;
