@@ -60,7 +60,7 @@ a{
 }
 
 [data-aos="rotate-ac"] {
-  transform: rotate(360deg);
+  transform: rotate(720deg);
   transition-property: transform;
   
 }
