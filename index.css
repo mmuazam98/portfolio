@@ -58,6 +58,14 @@ a{
    100% {background-color:rgba(212, 0, 50, 0.6);width:100%;}
 }
 
+[data-aos="rotate-ac"] {
+  transform: rotate(360deg);
+  transition-property: transform;
+  
+}
+[data-aos="rotate-ac"].aos-animate {
+  transform: rotate(0deg);
+}
   .Home-items h1,p{
     position: static;
     
@@ -72,9 +80,7 @@ a{
       font-weight: bold;
       color: rgb(255, 255, 255);
   }
-  #About .container{
-    width: 100%;
-  }
+  
  .Home-items #mainlogo {
      display: block;
     margin-left: auto;
@@ -87,6 +93,10 @@ a{
     transform: rotate(360deg);
   }
 
+
+#About .container{
+    width: 100%;
+  }
   p {
     font-size: 16px;
   }
@@ -210,7 +220,10 @@ a{
     width: 20%;
     background-color: teal;
   margin-bottom: 50px;}
-    /*projects*/
+
+
+ /*projects*/
+
 #Projects h2{
   
   font-weight: bolder;
