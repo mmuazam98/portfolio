@@ -6,6 +6,8 @@ body{
            background-color: rgba(206, 37, 77, 0.6);
            background: linear-gradient( left, rgba(212, 0, 50, 0.6), rgba(8, 11, 196, 0.69) 100%);  
            overflow-x: hidden;
+           background-repeat:no-repeat;
+           background-attachment:fixed;
 }
 html{
   scroll-behavior: smooth;
