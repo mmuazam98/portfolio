@@ -67,9 +67,7 @@ a{
   transform: rotate(0deg);
 }
   .Home-items h1,p{
-    position: static;
-    
-    display: block;
+    display: grid;
 
   }
   .Home-items h1{
@@ -157,8 +155,9 @@ a{
     }   
     #Skills p{
       color:black;
-      font-size: 18px;
-      font-weight: bold;
+      font-size: 20px;
+      font-weight: 900;
+      margin-bottom: 0;
     }
     .skills {
       animation: animate3 6s forwards ease-in-out;
