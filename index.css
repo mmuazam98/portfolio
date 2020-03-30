@@ -62,7 +62,7 @@ a{
 }
 
 [data-aos="rotate-ac"] {
-  transform: rotate(720deg);
+  transform: rotate(1800deg);
   transition-property: transform;
   
 }
@@ -91,7 +91,7 @@ a{
   }
 
   .Home-items #mainlogo:hover {
-    transform: rotate(360deg);
+    transform: rotate(900deg);
   }
 
 
