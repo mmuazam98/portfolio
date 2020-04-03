@@ -34,6 +34,14 @@
     <title>My Portfolio</title>
     <link rel="icon" href="MZ3.png" type="image/ico" />
   
+
+    <style>
+      /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+       
+      }
+      </style>
   </head>
   <body>
       <!--navbar-->
@@ -46,14 +54,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
               </button>
-              <img src="MZ3.png" alt="" id="logo" data-aos="fade-right" data-aos-delay="200">
+              <img src="C:\Users\mmuaz\OneDrive\Documents\portfolio\images\MZ3.png" alt="" id="logo" data-aos="fade-right" data-aos-delay="200">
             </div>
             <div class="collapse navbar-collapse" id="myNavbar" data-aos="fade-left" data-aos-delay="200">
               <ul class="nav navbar-nav navbar-right ">
                 <li><a href="#About">About</a></li>
                 <li><a href="#Skills">Skills</a></li>
                 <li><a href="#Projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#Contact">Contact</a></li>
+              
               </ul>
             
             </div>
@@ -68,7 +78,7 @@
                 <div class="container">
                   <div class="Home-items container">
                     <div data-aos="rotate-ac" data-aos-duration="2000" data-aos-easing="ease-in-out">
-                    <img src="MZ3.png" alt="logo" class="img-responsive" id="mainlogo"></div>
+                    <img src="C:\Users\mmuaz\OneDrive\Documents\portfolio\images\MZ3.png" alt="logo" class="img-responsive" id="mainlogo"></div>
                         <div class="seprate-line container"></div>
                     <div class="text-center" >
                     <h2 class="main-heading" style="font-weight: bolder;" data-aos="fade-zoom-in" data-aos-delay="150">
@@ -91,7 +101,7 @@
               <div id="about" class="container bg-1">
               <div class="row" >
                 <div class="col-sm-4" data-aos="fade-left" >
-              <img src="image2.jpg" alt="" class="img-thumbnail img-circle margin" width="304" height="246" style="height: 350px;width: 280px; margin-left: 50px;">
+              <img src="C:\Users\mmuaz\OneDrive\Documents\portfolio\images\image2.jpg" alt="" class="img-thumbnail img-circle margin" width="304" height="246" style="height: 350px;width: 280px; margin-left: 50px;">
                   
                 </div>
                 <div class="col-sm-8" data-aos="fade-right" >
@@ -114,7 +124,7 @@
               <section id="Skills">
               <div class="container-fluid bg-2 text-center " >
                 
-                <h1 class="margin"data-aos="fade-left" data-aos-delay="200">Skills</h1>
+                <h1 class="margin " data-aos="fade-left" data-aos-delay="200" style="font-weight: bolder;">Skills</h1>
                  <div data-aos="fade-right" data-aos-delay="250">
                 <p class="container text-left">HTML</p>
                    <div class="container">
@@ -155,10 +165,61 @@
                    </div>
                   </div>   
               </section>
+
+              
+     <!--gallery-->       
+     <section id="gallery" class="bg-6">
+     <div class="container">
+      <h1 class="text-center margin" data-aos="fade-left" data-aos-delay="200" style="font-weight: bolder; text-decoration: underline;">GALLERY</h1>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+    
+        <div class=" carousel-inner bg-7">
+          <div class="item active">
+            <img src="img3.jpg" alt="img" width="1100" height="200">
+          </div>
+    
+          <div class="item">
+            <img src="img1.jpg" alt="img" width="1100" height="200">
+          </div>
+        
+          <div class=" item">
+            <img src="img4.jpg" alt="img" width="1100" height="200">
+          </div>
+          <div class=" item">
+            <img src="img5.jpg" alt="img" width="1100" height="200">
+          </div>
+          <div class=" item">
+            <img src="img2.jpg" alt="img" width="1100" height="200">
+          </div>
+        </div>
+    
+        
+    
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div><div style="margin-bottom: 40px;"></div>
+    </div>
+  </section>
+     
+
     <!--project-->
-              <section id="Projects">
+              <section id="Projects" class="">
               <div class="container-fluid bg-3 text-center">    
-                <h1 class="margin"data-aos="fade-right" data-aos-delay="200">Projects</h1><br>
+                <h1 class="" data-aos="fade-right" data-aos-delay="200">Projects</h1><br>
                 
                   
                   <div class="container card text-white margin" 
@@ -181,7 +242,7 @@
 <!--contact-->
               <section id="Contact">
                 <div id="contact" class="container bg-5">
-                  <h2 class="text-center">CONTACT</h2> <!--data-aos="fade-down" data-aos-delay="200"-->
+                  <h2 class="text-center" style="font-weight: bolder;">CONTACT</h2> <!--data-aos="fade-down" data-aos-delay="200"-->
                   
                     <div class="row"><!--data-aos="fade-up" data-aos-delay="200"-->
                       <div class="text-center">
