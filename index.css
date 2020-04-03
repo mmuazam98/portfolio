@@ -183,28 +183,28 @@ a{
   }
  
   .html {
-    width: 80%;
+    width: 70%;
     
      background-color: teal;
      margin-bottom: 10px;
     }
   .css {
-     width: 70%;
+     width: 60%;
      background-color: teal;
      margin-bottom: 10px; 
     }
   .js {
-     width: 55%;
+     width: 40%;
      background-color: teal;
      margin-bottom: 10px;
     }
   .bs {
-    width: 70%;
+    width: 60%;
     background-color: teal;
     margin-bottom: 10px;
   }
     .jq {
-     width: 35%;
+     width: 25%;
      background-color: teal;
      margin-bottom: 10px; 
     }
@@ -214,7 +214,7 @@ a{
      margin-bottom: 10px;
     }
     .cpp {
-      width: 53%;
+      width: 65%;
       background-color: teal;
       margin-bottom: 10px;
      }
