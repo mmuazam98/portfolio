@@ -12,6 +12,16 @@ body{
 html{
 scroll-behavior: smooth;
 }
+.preloader
+ {
+        width: 100%;
+        height: 100%;
+        
+        background: url('preloader3.gif') center no-repeat #d5d5d5;
+        z-index: 99999;
+        position: fixed;
+    }
+/*mainbody*/
 .navbar{
 background: none;
 border: none;
@@ -109,6 +119,7 @@ margin-bottom: 30px;
 /*Section bgs*/
 .bg-1 { 
 background-color: teal; 
+background: linear-gradient(to left bottom, #02f4c1,teal );
 
 color: #000000;
 }
@@ -134,7 +145,7 @@ color: #000000;
 .bg-3 { 
 
 background-color: teal; 
-
+background: linear-gradient(to left bottom, #02f4c1,teal );
 color: #000000;
 }
 .bg-4 { 
@@ -194,41 +205,49 @@ border-radius: 50px;
 width: 70%;
 
 background-color: teal;
+background: linear-gradient(to left bottom, #02f4c1,teal );
 margin-bottom: 10px;
 }
 .css {
 width: 60%;
 background-color: teal;
+background: linear-gradient(to left bottom, #02f4c1,teal );
 margin-bottom: 10px; 
 }
 .js {
 width: 40%;
 background-color: teal;
+background: linear-gradient(to left bottom, #02f4c1,teal );
 margin-bottom: 10px;
 }
 .bs {
 width: 60%;
 background-color: teal;
+background: linear-gradient(to left bottom, #02f4c1,teal );
 margin-bottom: 10px;
 }
 .jq {
 width: 20%;
 background-color: teal;
+background: linear-gradient(to left bottom, #02f4c1,teal );
 margin-bottom: 10px; 
 }
 .sql {
 width: 25%;
 background-color: teal;
+background: linear-gradient(to left bottom, #02f4c1,teal );
 margin-bottom: 10px;
 }
 .cpp {
 width: 65%;
 background-color: teal;
+background: linear-gradient(to left bottom, #02f4c1,teal );
 margin-bottom: 10px;
 }
 .java{
 width: 15%;
 background-color: teal;
+background: linear-gradient(to left bottom, #02f4c1,teal );
 margin-bottom: 50px;}
 
 
@@ -242,11 +261,17 @@ text-transform: uppercase;
 }
 
 #Projects button{
-background: teal;
+background: linear-gradient(to left bottom, #02f4c1,teal );
 color: white;
+transition: all 1s ease-in-out;
+}
+#Projects button:hover{
+  color: #02f4c1;
+  background: #fff;
+  transform: scale(1.2);
 }
 
-/*contact footer*/
+/*contact & footer*/
 #Contact .container{
 
 width: 100%;
@@ -262,8 +287,24 @@ color: black;
 .row {
 padding: 15px;
 }
+.contact a{
+  font-size: 17px;
+  color: rgb(32, 32, 32);
+  font-weight: 600;
+}
+.icons i{
+  color: rgb(68, 68, 68);
+  margin: 0 5px;
+  transition: all 1s ease-in-out;
+}
+.icons i:hover{
+   transform: rotate(720deg);
+   
+}
+
 footer{
 padding: 2.5vh;
 height: 10vh;
 width: 100%;
+margin-bottom: 0;
 }
