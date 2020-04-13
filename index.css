@@ -72,7 +72,7 @@ animation-delay: 0s;
 }
 
 [data-aos="rotate-ac"] {
-transform: rotate(1800deg);
+transform: rotate(2700deg);
 transition-property: transform;
 
 }
