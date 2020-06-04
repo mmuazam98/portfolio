@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1" />
     <!--preloader-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>
-      jQuery(window).load(function(){
-          jQuery(".preloader").fadeOut('slow');
-      });
+    
+     <script>
+     $(window).load(function() {
+  $(".preloader").delay(2000).fadeOut("slow");
+  
+})
+
+function display(){
+  alert("Currently unavailable!");
+}
   </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- fontawesome -->
     <link
       rel="stylesheet"
@@ -40,7 +48,7 @@
   </head>
   <body>
    
-    <!--<div class="preloader"></div>-->
+    <div class="preloader"></div>
 
       <!--navbar-->
     <section id="Navbar">
