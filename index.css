@@ -19,6 +19,7 @@ scroll-behavior: smooth;
         background: url('preloader5.gif') center no-repeat rgb(212, 0, 50);
         z-index: 99999;
         position: fixed;
+        opacity:0.85;
     }
 /*mainbody*/
 .navbar{
